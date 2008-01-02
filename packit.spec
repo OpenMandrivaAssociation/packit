@@ -14,6 +14,7 @@ License:	GPL
 Group:		Monitoring
 BuildRequires:	libpcap-devel
 BuildRequires:	net2-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Packit is a network auditing tool that allows you to monitor,
