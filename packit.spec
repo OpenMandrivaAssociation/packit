@@ -1,6 +1,6 @@
 %define	name	packit
 %define	version	1.0
-%define	rel	5
+%define	rel	6
 %define	release	%mkrel %{rel}
 
 Summary:	Network Injection And Capture Tool
