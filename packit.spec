@@ -1,6 +1,6 @@
 %define	name	packit
 %define	version	1.0
-%define	rel	6
+%define	rel	7
 %define	release	%mkrel %{rel}
 
 Summary:	Network Injection And Capture Tool
@@ -13,7 +13,7 @@ URL:		http://www.obtuse.net/software/packit/
 License:	GPL
 Group:		Monitoring
 BuildRequires:	libpcap-devel
-BuildRequires:	net2-devel
+BuildRequires:	net-devel >= 1.1.3
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
