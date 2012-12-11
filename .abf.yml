@@ -1,2 +1,3 @@
 sources:
-  "packit-1.0.tar.bz2:"	e3dba012cb37c111a581d2568bc365f472d0a027
+  "packit-0.7.1-update-headers-for-new-libpcap.patch.bz2": 0aee30413a393984b163603f47aa2de836037af4
+  "packit-1.0.tar.bz2": e3dba012cb37c111a581d2568bc365f472d0a027
