@@ -1,0 +1,22 @@
+diff -urN packit-1.0/src/Makefile.am packit-1.0-patched/src/Makefile.am
+--- packit-1.0/src/Makefile.am	2003-09-28 00:10:09.000000000 +1100
++++ packit-1.0-patched/src/Makefile.am	2014-03-25 18:18:15.957730142 +1100
+@@ -61,7 +61,6 @@
+ INCLUDES=@INCLUDES@
+ 
+ all:
+-	strip @BINS@
+ 	cp @BINS@ $(top_srcdir)
+ 
+ clean:
+diff -urN packit-1.0/src/Makefile.in packit-1.0-patched/src/Makefile.in
+--- packit-1.0/src/Makefile.in	2003-09-28 00:34:08.000000000 +1100
++++ packit-1.0-patched/src/Makefile.in	2014-03-25 18:17:08.702651958 +1100
+@@ -450,7 +450,6 @@
+ 
+ 
+ all:
+-	strip @BINS@
+ 	cp @BINS@ $(top_srcdir)
+ 
+ clean:
