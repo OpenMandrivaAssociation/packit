@@ -1,7 +1,7 @@
 Summary:	Network Injection And Capture Tool
 Name:		packit
 Version:	1.0
-Release:	8
+Release:	9
 License:	GPL
 Group:		Monitoring
 Url:		http://www.obtuse.net/software/packit/
