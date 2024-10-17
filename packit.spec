@@ -4,7 +4,7 @@ Version:	1.0
 Release:	9
 License:	GPL
 Group:		Monitoring
-Url:		http://www.obtuse.net/software/packit/
+Url:		https://www.obtuse.net/software/packit/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		%{name}-0.7.1-update-headers-for-new-libpcap.patch.bz2
 Patch1:		packit-1.0-no-strip.patch
